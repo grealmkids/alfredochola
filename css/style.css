@@ -542,7 +542,10 @@ div#main-nav {
 
 #service {
     padding: 60px 0px;
-    background: #F74D4D;
+    background: radial-gradient(circle at 50% 100%, #1e1e1e80 5%, #1e1e1e 5% 10%, #1e1e1e80 10% 15%, #1e1e1e 15% 20%, #1e1e1e80 20% 25%, #1e1e1e 25% 30%, #1e1e1e80 30% 35%, #1e1e1e 35% 40%, transparent 40%), radial-gradient(circle at 100% 50%, #1e1e1e80 5%, #1e1e1e 5% 10%, #1e1e1e80 10% 15%, #1e1e1e 15% 20%, #1e1e1e80 20% 25%, #1e1e1e 25% 30%, #1e1e1e80 30% 35%, #1e1e1e 35% 40%, transparent 40%), radial-gradient(circle at 50% 0%, #1e1e1e80 5%, #1e1e1e 5% 10%, #1e1e1e80 10% 15%, #1e1e1e 15% 20%, #1e1e1e80 20% 25%, #1e1e1e 25% 30%, #1e1e1e80 30% 35%, #1e1e1e 35% 40%, transparent 40%), radial-gradient(circle at 0 50%, #1e1e1e80 5%, #1e1e1e 5% 10%, #1e1e1e80 10% 15%, #1e1e1e 15% 20%, #1e1e1e80 20% 25%, #1e1e1e 25% 30%, #1e1e1e80 30% 35%, #1e1e1e 35% 40%, transparent 40%);
+        background-size: 3em 3em;
+        background-color: #000000;
+        opacity: 1
 }
 #service h2{
   color: #fff;
@@ -2408,4 +2411,8 @@ display:none;
 
 .text-center{
     text-align:center !important;
+}
+
+.p3{
+    padding: 10px 20px;
 }
