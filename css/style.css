@@ -2405,3 +2405,7 @@ display:none;
 .progress-bar-dark{
     background-color: #181818 !important;
 }
+
+.text-center{
+    text-align:center !important;
+}

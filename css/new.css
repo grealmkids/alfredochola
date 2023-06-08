@@ -1,3 +1,19 @@
 .fw-bold {
   font-weight: 700 !important;
 }
+
+@media (max-width: 767px) {
+  .p1 {
+    padding: 10px !important;
+  } /* CSS styles specific to small screens go here */
+  .col-4 {
+    width: 33.33% !important;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* Clear floats after every third .col-4 div */
+  .col-4:nth-child(3n + 1) {
+    clear: both;
+  }
+}
