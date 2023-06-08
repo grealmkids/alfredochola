@@ -201,7 +201,7 @@ body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 500px;
     color: #888888;
     margin: 0;
 }
@@ -1489,8 +1489,8 @@ padding:80px 0 60px;
 	left: 0px;
 	font-weight: 400;
 	padding: 3px 30px 2px 10px;
-	color: rgba(255, 255, 255, 0.54);
-	background-color: rgba(25, 25, 25, 0.2);
+	color: rgb(255, 255, 255);
+	background-color: transparent;
 }
 .progress > .progress-completed {
 	position: absolute;
@@ -1527,11 +1527,13 @@ padding:80px 0 60px;
     overflow: hidden;
     display: block;
     position: relative;
+    opacity: 1;
 }
 
 .portfolio-item .portfolio_img img {
     width: 100%;
     height: auto;
+    opacity: 1;
 }
 
 .portfolio-item:hover .item_overlay {
@@ -2399,4 +2401,7 @@ width: 99%;
 .read_more2{
 display:none;
 }
+}
+.progress-bar-dark{
+    background-color: #181818 !important;
 }
