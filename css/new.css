@@ -21,3 +21,15 @@
 .text-yellow {
   color: #ffd84e !important ;
 }
+
+.input {
+  border: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid red !important;
+  background-color: #ffefb5 !important;
+  padding: 5px !important;
+}
+
+.crossed {
+  text-decoration: line-through !important;
+}
