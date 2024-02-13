@@ -1,7 +1,7 @@
 function contactus() {
   Swal.fire({
     html: `
-        <div> <h1>Contact me <button class="btn- btn-danger rounded-5 border-0" onclick="closePopup()"> &times; close
+        <div> <h1>Contact me <button class="btn- btn-danger rounded-circle border-0" onclick="closePopup()"> &times; 
         </button></h1>
        
         
