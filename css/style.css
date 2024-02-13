@@ -10,6 +10,9 @@ Licence under Creative Commons Attribution 3.0
 
 /* Reset
 ---------------------------------*/
+.justify{
+    text-align: justify;
+}
 ul {
     list-style: none;
 }
@@ -374,7 +377,7 @@ p {
   width: 140px;
   height: 140px;
   overflow: hidden;
-  border: 8px dotted rgba(255, 255, 255, 0.23);
+  border: 8px solid rgba(106, 255, 0, 0.2);
   margin: 0 auto 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
@@ -393,7 +396,7 @@ p {
   font-size: 0.875rem;
   line-height: 1.2em;
   color: #7C7C7C;
-  margin: 5px 0 0;
+
 }
 #head .tagline b {
   font-weight: normal;
@@ -411,7 +414,7 @@ p {
 .home #head .tagline {
   font-size: 16px;
   font-size: 1rem;
-  margin: 15px 0 0;
+
 }
 
 /* Top_content

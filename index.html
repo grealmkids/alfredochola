@@ -29,17 +29,18 @@
   </script>
 
 </head>
-<body>
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="2" style="background-position: 50% 0px;">
+<body class="m-0 p-0">
+<header id="header" class="m-0 p-0">
+	<div id="head" class="parallax m-0 p-0" parallax-speed="2" style="background-position: 50% 0px;">
 	
 		<div class="top_left_cont zoomIn wow animated" id="logo"> 
 		<img class="img-circle" src="img/guy.jpg" alt="">
 			 
-              <h2 class="fw-bold">Hello! I am Alfred </h2> 
+              <h4 class="fw-normal text-center text-warning">Hello World !</h4> 
+              <h2 class="display-">ALFRED OCHOLA</h2>
               <h2>A Full Stack Software Developer</h2>
             <h2 class="text-center">
-              <a href="#contact" class="read_more2">Hire Me!</a>
+              <a href="#contact" class="read_more2">Hire Me!</a><br>
               <a href="software.html" class="btn btn-danger fw-bold p3">
                
                 My Services    <i class="fa-solid fa-arrow-right "></i></a> 
@@ -65,7 +66,11 @@
 			  <li><a href="#service" class="scroll-link">My Skills</a></li>
 			  <li><a href="software.html" class="scroll-link">Software</a></li> 
 			  <li><a href="#experience" class="scroll-link">Experience</a></li> 
-			  <li><a href="#contact" class="scroll-link">Contact</a></li>
+			  <li>  <a class="nav-link active" aria-current="page" onclick="contactus()"
+          >Contact</a
+        >
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/script.js"></script></li>
 			</ul>
       </div>
 	 </nav>
@@ -84,17 +89,19 @@
       <div class="col-md-6"> <img class="img-responsive" src="img/about1.png" > </div>
       <div class="col-md-6">
         <h3>Brief Professional History</h3>
-        <p>
-          Alfred started his pursuit for technology prowess in Namilyango College, scoring 3AAAA in PCM/Art, emerging the best in 2011. 
-          Since then he has had rigorous training, great experience and cumulative expertise in computer knowledge.   
-          Alfred has had thorough training in diverse technologies & computer programming from the leading institutions & companies like Makerere University, IBM, Oracle, Hipipo, Mojaloop fintech foundation, HiPiPo, LinkedIn Premium, NSSF Hi-Innovator business training, DFSLab, etc. 
-          <span class="text-danger">He started Computer programming as early as his second year at Makerere University in 2014; programming 
-            robotic electronic systems at i-Labs.</span> In 2015-2016, he wrote MATLAB code to optimize deployment of heterogeneous 
-          small base stations for internet connectivity. He then embarked on Web and Software Development. 
-          He chose to master the Java programming language due to its robustness and diverse applicability.
-           He is focussed and a seeker of excellence in all his work. He has worked for some of the top companies in Uganda e.g. MK publishers, Lighthouse Television, Kuzimba Services, Ecopharm chain of Pharmacies, World Vision Uganda, etc. Alfred works with an equally robust team of young professionals to give his clients the best value for their money as far as all the services are concerned.
-          
-          
+        <p class="justify">
+          I started my pursuit for technology prowess in Namilyango College, scoring 3AAAA in PCM/Art, emerging the
+          best in 2011. Since then I have had rigorous training, great experience and cumulative expertise in computer
+          knowledge. I have also had thorough training in diverse technologies & computer programming from the
+          leading institutions & companies like Makerere University, IBM, Oracle, HiPipo, Mojaloop fintech foundation,
+          LinkedIn Premium, NSSF Hi-Innovator business training, DFSLab, etc. I started Computer programming as
+          early as my second year at Makerere University in 2014; programming robotic electronic systems at i-Labs.
+          In 2015-2016, I wrote MATLAB code to optimize deployment of heterogeneous small base stations for
+          internet connectivity at Makerere University. I then embarked on Web and Software Development. I have also
+          had a 4-months daily hands-on training in Cross-Platform Mobile App Development using Flutter, from the
+          Innovation Village & Soltech technologies - powered by MasterCard.
+          Over the years, I have built a rich network of seasoned software developers & skilled personnel, and this
+          makes me super efficient at executing all my tasks to solve your high tech-needs       
         </p> 
          
         <h4 class="fw-bold">
@@ -228,6 +235,14 @@
         <span class="progress-type">Dart, Flutter</span>
         <span class="progress-completed">70%</span>
     </div>
+
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+          <span class="sr-only">80% Complete (danger)</span>
+      </div>
+      <span class="progress-type">UI/UX Design - Figma</span>
+      <span class="progress-completed">80%</span>
+  </div>
 	</div>
 	</div>
 
